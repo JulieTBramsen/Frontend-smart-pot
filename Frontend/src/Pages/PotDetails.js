@@ -79,7 +79,7 @@ export default function PotDetails() {
         } else if (action === 'delete') {
             try {
                 await deletePot(potID, setToken);
-                navigate("/smart-pot");
+                navigate("/Fornend-smart-pot");
             } catch (error) {
                 console.error('Error disconnecting pot:', error.message);
             }

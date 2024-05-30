@@ -22,7 +22,7 @@ const Login =()=> {
         const hashedPassword = MD5(password).toString();
         const response = await loginUser(email, hashedPassword, setToken)
         if (response === true){
-            navigate('/smart-pot');
+            navigate('/Fornend-smart-pot');
         }
         else{
             setError(response);
@@ -56,7 +56,7 @@ const Login =()=> {
                     </div>
                 )}
                 <button type="submit" class="btn btn-primary">Login</button>
-                <Link to="/smart-pot/register"><button class="btn btn-secondary">Register </button></Link>
+                <Link to="/Fornend-smart-pot/register"><button class="btn btn-secondary">Register </button></Link>
                 <Outlet />
             </form>
         </div>

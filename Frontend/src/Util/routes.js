@@ -23,23 +23,23 @@ const Routes = () => {
 
   const routesForAuthenticatedOnly = [
     {
-      path: "/smart-pot",
+      path: "/Fornend-smart-pot",
       element: <ProtectedRoute />, 
       children: [
         {
-          path: "/smart-pot",
+          path: "/Fornend-smart-pot",
           element: <Home />,
         },
         {
-          path: "/smart-pot/plant_overview",
+          path: "/Fornend-smart-pot/plant_overview",
           element: <PlantOverview />,
         },
         {
-          path: "/smart-pot/connect_pot",
+          path: "/Fornend-smart-pot/connect_pot",
           element: <ConnectPot />,
         },
         {
-            path: "/smart-pot/pot-details/:potID",
+            path: "/Fornend-smart-pot/pot-details/:potID",
             element: <PotDetails/>,
           },
       ],
@@ -49,11 +49,11 @@ const Routes = () => {
  
   const routesForNotAuthenticatedOnly = [
     {
-      path: "/smart-pot/register",
+      path: "/Fornend-smart-pot/register",
       element: <Register />,
     },
     {
-      path: "/smart-pot/login",
+      path: "/Fornend-smart-pot/login",
       element: <Login/>,
     },
   ];

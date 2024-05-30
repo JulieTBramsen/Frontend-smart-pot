@@ -2,7 +2,7 @@
   "name": "react.dev",
   "version": "0.0.0",
   "main": "/src/index.js",
-  "homepage": "http://Zenbax.github.io/smart-pot",
+  "homepage": "http://JulieTBramsen.github.io/Fornend-smart-pot",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

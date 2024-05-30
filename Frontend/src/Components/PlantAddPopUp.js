@@ -16,7 +16,7 @@ const PlantAddPopUp = ({ handlePopUpAction, ShowRemove }) => {
     };
 
     const handleCreateNew = () => {
-        navigate('/smart-pot/plant_overview');
+        navigate('/Fornend-smart-pot/plant_overview');
     };
 
     return (
