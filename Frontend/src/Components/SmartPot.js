@@ -54,7 +54,7 @@ const SmartPot = ({ pot }) => {
     }
 
     return (
-        <Link to={"/Fornend-smart-pot/pot-details/" + pot.id}>
+        <Link to={"/Frontend-smart-pot/pot-details/" + pot.id}>
             <Container id='smartPodContainer' data-testid='smartPodContainer' className={warning ? 'warningContainer' : ''}>
                 <Row>
                     <Col id='bottomCol' md="8">

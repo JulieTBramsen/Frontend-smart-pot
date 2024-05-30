@@ -19,7 +19,7 @@ return(
         <div id='PageNotFoundText'>
             <h1>404</h1>
             <h2>Page Not Found</h2>
-            <Link to="/Fornend-smart-pot"><button type="button" onClick={handleClick}> Home</button></Link>
+            <Link to="/Frontend-smart-pot"><button type="button" onClick={handleClick}> Home</button></Link>
         </div>
         
         </Col>

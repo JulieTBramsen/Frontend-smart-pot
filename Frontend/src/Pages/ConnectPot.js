@@ -28,7 +28,7 @@ const ConnectPot = () => {
 
         const response =  await createPot(nameOfPot, idOfPot, plantData, setToken)
         if(response === true){
-            navigate("/Fornend-smart-pot");
+            navigate("/Frontend-smart-pot");
         } else {
             setError(response);
             setShowError(true);

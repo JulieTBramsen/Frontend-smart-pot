@@ -69,7 +69,7 @@ const Register =()=> {
     }
 
     const handleClickBack = ()  => {
-        navigate('/Fornend-smart-pot/login');
+        navigate('/Frontend-smart-pot/login');
     }
 
 
